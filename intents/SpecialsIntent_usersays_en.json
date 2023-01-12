@@ -1,0 +1,151 @@
+[
+  {
+    "id": "572afc37-2744-4909-96a6-e85cf360ac57",
+    "data": [
+      {
+        "text": "deals",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76ab340c-7bb2-4f4d-a459-83784f92267b",
+    "data": [
+      {
+        "text": "do you have a deal of the day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9c8949b-5ea6-4d11-b1a3-81cf3a282972",
+    "data": [
+      {
+        "text": "specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8816f9ca-6771-4185-a188-6dfbc0c7b917",
+    "data": [
+      {
+        "text": "Any pizza specials available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e763cd19-83d0-43e8-b609-ae63449b8292",
+    "data": [
+      {
+        "text": "Do you have any pizza specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33586b6f-2cd4-4db9-b19e-e24a460d23fd",
+    "data": [
+      {
+        "text": "What are special pizza\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc451ede-6bb7-4d4b-b7a9-2246ce909d87",
+    "data": [
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b1c5235-7c2b-4b39-9423-a50c554fa003",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s specials.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1de922c-a5d1-4ca4-919b-4f368ce958f0",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s special.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

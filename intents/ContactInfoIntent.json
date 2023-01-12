@@ -1,0 +1,78 @@
+{
+  "id": "da385731-24bd-4595-943c-987b3f39801e",
+  "parentId": "17827fd7-6545-4bcc-8412-85f8aa9d242f",
+  "rootParentId": "0bf128bd-6af4-4664-bc71-83a8bb3d3e24",
+  "name": "ContactInfoIntent",
+  "auto": true,
+  "contexts": [
+    "OrderPizzaIntent-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizzaIntent.OrderPizzaIntent-yes.OrderPizzaIntent-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "272ca908-4571-43d2-a1c9-ad0fad5daac7",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have a phone number for the order."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b4546aad-8243-4e52-8e69-3537a023098e",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have a name for the order?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks $name, Your order should be ready in 20 Minutes."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

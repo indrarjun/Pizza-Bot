@@ -1,0 +1,102 @@
+{
+  "id": "0bf128bd-6af4-4664-bc71-83a8bb3d3e24",
+  "name": "OrderPizzaIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "OrderPizzaIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8cc2008f-87ed-4009-83f1-1a5767bb7d40",
+          "name": "Size",
+          "required": true,
+          "dataType": "@PizzaSize",
+          "value": "$Size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size of pizza would you like?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2cebf992-731d-44b1-b63c-b2782df31406",
+          "name": "Ingredients",
+          "required": true,
+          "dataType": "@PizzaIngredient",
+          "value": "$Ingredients",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What ingredients would you like on your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "Any Ingredients for your pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f697bfd7-50e0-45cf-8cc8-d3828f39d9c4",
+          "name": "CrustStyle",
+          "required": true,
+          "dataType": "@PizzaCrustStyle",
+          "value": "$CrustStyle",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you want a regular or thin crust pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks, Your ordered a $Size $CrustStyle crust pizza with $Ingredients . Is that correct?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

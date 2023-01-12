@@ -1,0 +1,9 @@
+{
+  "id": "e16c0231-9e79-4d66-acf4-a42287d6e80d",
+  "name": "PizzaIngredient",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
